@@ -1,6 +1,6 @@
 {
   "name": "gnpm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Global Node Package Manager",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/nodenica/gnpm/issues"
   },
-  "homepage": "https://github.com/nodenica/gnpm"
+  "homepage": "https://github.com/nodenica/gnpm",
+  "bin": {
+    "gnpm": "./bin/gnpm.js"
+  },
+  "dependencies": {
+    "colors": "^1.0.3",
+    "deasync": "0.0.10",
+    "npm": "^2.7.5",
+    "prompt": "^0.2.14",
+    "request": "^2.55.0"
+  }
 }
