@@ -1,6 +1,6 @@
 {
   "name": "gnpm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Global Node Package Manager",
   "main": "index.js",
   "scripts": {
