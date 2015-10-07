@@ -27,10 +27,10 @@
     "gnpm": "./bin/gnpm.js"
   },
   "dependencies": {
-    "colors": "^1.0.3",
-    "deasync": "0.0.10",
-    "npm": "^2.7.5",
+    "colors": "^1.1.2",
+    "deasync": "^0.1.2",
+    "npm": "^3.3.5",
     "prompt": "^0.2.14",
-    "request": "^2.55.0"
+    "request": "^2.64.0"
   }
 }
